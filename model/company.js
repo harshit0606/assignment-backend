@@ -4,15 +4,15 @@ const CompanySchema = mongoose.Schema(
   {
     name: {
       type: String,
-      required: false,
+      required: true,
     },
     email: {
       type: String,
-      required: false,
+      required: true,
     },
     location: {
       type: String,
-      required: false,
+      required: true,
     },
     contactNo: {
       type: String,
